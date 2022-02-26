@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="alert('Programacion Computacional IV a iniciado')">Mensaje</button>
+
+    <script>
+        document.write("Programacion IV");
+    </script>
+
+    <script>
+        const pi=3.1416;
+        console.log("El valor de PI es de : " + pi);
+
+        var stringValue="Hola, soy una variable string";
+        console.log("Valor de string es: " + stringValue);
+
+        var age;
+        age=66;
+        console.log("Valor de age: " + age);
+        var age=69;
+        console.log("Valor de age es de ahora: " + age);
+
+        let name="Dan";
+        let lastname;
+        lastname="Alvarez";
+        console.log(name + " " + lastname);
+
+
+        let val1=25;
+        let val2="25";
+        let result = val1==val2;
+        if(result){
+            console.log("Los valores son iguales entre si");
+        }
+        else
+        {
+            console.log("Los valores no son iguales");
+        }
+
+        switch(result)
+        {
+            case true:
+                console.log("Si coinciden");
+                break;
+            case false:
+                console.log("No coinciden");
+                break;
+            default:
+                console.log("No estan definidos");
+        }
+
+        let names= ["Ana", "Juanito", "Paloma"];
+        for(i=0; i < names.length; i++)
+        {
+            console.log(names[i]);
+        }
+    </script>
+</body>
+</html>
